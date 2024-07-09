@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="subject_common" />
+        <module name="subject_domain" />
+        <module name="mq" />
+        <module name="subject_api" />
+        <module name="subject_application_controller" />
+        <module name="job" />
+        <module name="subject_infra" />
+        <module name="subject_starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="controller" target="1.5" />
+      <module name="job" target="1.5" />
+      <module name="mq" target="1.5" />
+      <module name="subject" target="1.5" />
+      <module name="subject_aggressive" target="1.5" />
+      <module name="subject_api" target="1.5" />
+      <module name="subject_application" target="1.5" />
+      <module name="subject_application_controller" target="1.5" />
+      <module name="subject_common" target="1.5" />
+      <module name="subject_domain" target="1.5" />
+      <module name="subject_infra" target="6" />
+      <module name="subject_starter" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
