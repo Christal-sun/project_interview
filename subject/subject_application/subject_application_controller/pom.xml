@@ -22,6 +22,11 @@
             <artifactId>subject_infra</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.christal</groupId>
+            <artifactId>subject_domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

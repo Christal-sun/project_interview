@@ -4,7 +4,7 @@ spring:
   datasource:
     username: root
 #    password: jL9n2/aYYnFMT6i9IOS28poK1HC+dS7WuEuKVe2eLyLrSwmgR7KhI/gHy20cLCcFGROkImpRf4nmu9UCPO6b4Q==
-    password: 123456
+    password: MpGaUagGe8baVhHoYoppbvlBeTHwm91vBy4ECZSTv6iQkHm+PFbruL/YAJakEq90b38Bihq3N/5rB/vT/LfD2A==
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/project_interview?useUnicode=true&amp&characterEncoding=UTF-8&amp&serverTimezone=UTC
     #serverTimezone=/Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=true
@@ -27,7 +27,9 @@ spring:
           enabled: true
         wall:
           enabled: true
-#        config:
-#          enabled: true
+        config:
+          enabled: true
 
-#publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJTIe88ZHDL+ABSmh5KQBtGWJVvBpF/LqSe2huW1ZKkfS2DU3MpL4KxA7mtYa/rrGacffRTt54CLYNZECXQuG/8CAwEAAQ==
+publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIYqX3jaUzWa9HcfiI+jQ7Zgl0tGzydObqgn3gFtwsK6UU8jm8yPMKBplemz0mtvrtKYiFnz0LTDOr1sd8OlrPMCAwEAAQ==
+logging:
+  config: classpath:log4j2-spring.xml

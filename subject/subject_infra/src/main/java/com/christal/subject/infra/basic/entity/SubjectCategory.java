@@ -1,5 +1,7 @@
 package com.christal.subject.infra.basic.entity;
 
+import lombok.Data;
+
 import java.util.Date;
 import java.io.Serializable;
 
@@ -9,8 +11,9 @@ import java.io.Serializable;
  * @author makejava
  * @since 2024-07-08 20:07:20
  */
+@Data
 public class SubjectCategory implements Serializable {
-    private static final long serialVersionUID = 621618379391885238L;
+//    private static final long serialVersionUID = 621618379391885238L;
     /**
      * 主键
      */
@@ -48,78 +51,78 @@ public class SubjectCategory implements Serializable {
      */
     private Date updateTime;
 
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getCategoryName() {
-        return categoryName;
-    }
-
-    public void setCategoryName(String categoryName) {
-        this.categoryName = categoryName;
-    }
-
-    public Integer getCategoryType() {
-        return categoryType;
-    }
-
-    public void setCategoryType(Integer categoryType) {
-        this.categoryType = categoryType;
-    }
-
-    public String getImageUrl() {
-        return imageUrl;
-    }
-
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
-    }
-
-    public Long getParentId() {
-        return parentId;
-    }
-
-    public void setParentId(Long parentId) {
-        this.parentId = parentId;
-    }
-
-    public String getCreatedBy() {
-        return createdBy;
-    }
-
-    public void setCreatedBy(String createdBy) {
-        this.createdBy = createdBy;
-    }
-
-    public Date getCreatedTime() {
-        return createdTime;
-    }
-
-    public void setCreatedTime(Date createdTime) {
-        this.createdTime = createdTime;
-    }
-
-    public String getUpdateBy() {
-        return updateBy;
-    }
-
-    public void setUpdateBy(String updateBy) {
-        this.updateBy = updateBy;
-    }
-
-    public Date getUpdateTime() {
-        return updateTime;
-    }
-
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
-    }
+//
+//    public Long getId() {
+//        return id;
+//    }
+//
+//    public void setId(Long id) {
+//        this.id = id;
+//    }
+//
+//    public String getCategoryName() {
+//        return categoryName;
+//    }
+//
+//    public void setCategoryName(String categoryName) {
+//        this.categoryName = categoryName;
+//    }
+//
+//    public Integer getCategoryType() {
+//        return categoryType;
+//    }
+//
+//    public void setCategoryType(Integer categoryType) {
+//        this.categoryType = categoryType;
+//    }
+//
+//    public String getImageUrl() {
+//        return imageUrl;
+//    }
+//
+//    public void setImageUrl(String imageUrl) {
+//        this.imageUrl = imageUrl;
+//    }
+//
+//    public Long getParentId() {
+//        return parentId;
+//    }
+//
+//    public void setParentId(Long parentId) {
+//        this.parentId = parentId;
+//    }
+//
+//    public String getCreatedBy() {
+//        return createdBy;
+//    }
+//
+//    public void setCreatedBy(String createdBy) {
+//        this.createdBy = createdBy;
+//    }
+//
+//    public Date getCreatedTime() {
+//        return createdTime;
+//    }
+//
+//    public void setCreatedTime(Date createdTime) {
+//        this.createdTime = createdTime;
+//    }
+//
+//    public String getUpdateBy() {
+//        return updateBy;
+//    }
+//
+//    public void setUpdateBy(String updateBy) {
+//        this.updateBy = updateBy;
+//    }
+//
+//    public Date getUpdateTime() {
+//        return updateTime;
+//    }
+//
+//    public void setUpdateTime(Date updateTime) {
+//        this.updateTime = updateTime;
+//    }
 
 }
 

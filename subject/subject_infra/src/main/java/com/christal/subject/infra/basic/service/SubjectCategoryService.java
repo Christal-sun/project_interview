@@ -2,6 +2,8 @@ package com.christal.subject.infra.basic.service;
 
 import com.christal.subject.infra.basic.entity.SubjectCategory;
 
+import java.util.List;
+
 
 /**
  * 题目分类(SubjectCategory)表服务接口
@@ -17,7 +19,7 @@ public interface SubjectCategoryService {
      * @param id 主键
      * @return 实例对象
      */
-    SubjectCategory queryById(Long id);
+   SubjectCategory queryById(Long id);
 
     /**
      * 分页查询
@@ -51,4 +53,8 @@ public interface SubjectCategoryService {
      */
     boolean deleteById(Long id);
 
+    /**
+     * 查询岗位大类
+     */
+    List<SubjectCategory> queryPrimaryCategory();
 }

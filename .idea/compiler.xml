@@ -26,7 +26,7 @@
       <module name="subject_application" target="1.5" />
       <module name="subject_application_controller" target="1.5" />
       <module name="subject_common" target="1.5" />
-      <module name="subject_domain" target="1.5" />
+      <module name="subject_domain" target="6" />
       <module name="subject_infra" target="6" />
       <module name="subject_starter" target="1.5" />
     </bytecodeTargetLevel>
